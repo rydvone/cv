@@ -1,2 +1,140 @@
 @import url(./assets/style/normalize.css);
-/*# sourceMappingURL=style.css.map */
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.link:link {
+  color:inherit;
+}
+
+.link:visited {
+  color: inherit;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.page {
+  --highlight: #75b3a0;
+  --light-highlight: #caf1e6;
+  --dark-highlight: #376f5e;
+  --highlight: #7592b3;
+  --light-highlight: #cae3f1;
+  --dark-highlight: #37396f;
+  
+  --highlight: #b37575;
+  --light-highlight: #f1caca;
+  --dark-highlight: #842929;
+  --background-highlight: #f0f0f0;
+
+  --title-letter-spacing: .3em;
+  --negate-title-letter-spacing: -.3em;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  min-height: 100vh;
+  /* color: var(--color-white);
+  background-color: var(--color-dark-3xl); */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  background: var(--background-highlight);
+  margin: 0 auto;
+  border-top: 2em solid var(--highlight);
+  /* margin: 0 5vw; */
+}
+
+
+.icon {
+  width: 1.2vw;
+}
+
+.wrapper {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.title {
+  letter-spacing: var(--title-letter-spacing);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.list__item {
+  
+}
+/* header */
+.header {
+  border-bottom: 1em solid var(--light-highlight);
+  max-height: 25vh;
+}
+
+.header__menu {
+  display: none;
+  justify-content: flex-end;
+  background: coral;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2vh;
+}
+
+.menu__item {
+  list-style: none;
+}
+
+.preview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.preview__photo {
+  flex: 1 2;
+}
+
+.photo {
+  max-height: 50%;
+  max-width: 50%;
+  width: auto;
+  height: auto;
+
+  border-radius: 100%;
+}
+
+/* left */
+
+.list_contacts {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0; 
+}
+
+.list_contacts .list__item {
+  padding: 0.25rem;
+}
+
+.icon {
+  padding-right: 0.25rem;
+}
+
