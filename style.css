@@ -50,7 +50,6 @@ a {
   min-height: 100vh;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
   background: var(--background-highlight);
-  /* padding-bottom: 2vw; */
   border-top: 2em solid var(--highlight);
 }
 
