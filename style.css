@@ -101,8 +101,8 @@ a {
 }
 
 .photo {
-  max-width: 20vw;
-  max-height: 20vh;
+  max-width: 24vw;
+  max-height: 24vh;
   width: auto;
   height: auto;
   border-radius: 100%;
