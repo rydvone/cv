@@ -1,3 +1,3 @@
-## A.Verbitsky CV
+## Alexander Verbitsky CV
 
-### [cv ](https://rydvone.github.io/cv/)
+### [A.Verbitsky CV](https://rydvone.github.io/cv/)
