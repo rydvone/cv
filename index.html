@@ -1,229 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/idea-1.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>A.Verbitsky CV</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="./assets/icons/idea-1.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./style.css">
-  <title>A.Verbitsky CV</title>
-</head>
-
-<body class="body">
-  <div class="page">
-    <header class="header">
-      <div class="header__wrapper wrapper">
-        <div class="header__preview">
-          <div class="preview">
-            <div class="preview__photo">
-              <img class="photo" src="./assets/image/photo.jpg" alt="photo">
-            </div>
-            <div class="preview__info">
-              <h1 class="name">Alexander Verbitsky</h1>
-              <div class="separator"></div>
-              <p class="position">Junior JavaScript/Frontend Developer</p>
+  <body class="body">
+    <div class="page">
+      <header class="header">
+        <div class="header__wrapper wrapper">
+          <div class="header__preview">
+            <div class="preview">
+              <div class="preview__photo">
+                <img class="photo" src="./assets/image/photo.jpg" alt="photo" />
+              </div>
+              <div class="preview__info">
+                <h1 class="name">Alexander Verbitsky</h1>
+                <div class="separator"></div>
+                <p class="position">JavaScript/Frontend Developer (Angular)</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <main class="main">
-      <div class="main__wrapper wrapper">
-        
-        <div class="main___column-left">
+      <main class="main">
+        <div class="main__wrapper wrapper">
+          <div class="main___column-left">
+            <section class="contacts left" id="contacts">
+              <h2 class="title">Contacts</h2>
+              <ul class="list list_contacts">
+                <li class="list__item">
+                  <img
+                    class="icon"
+                    src="./assets/svg/email-black.svg"
+                    alt="icon email"
+                  />
+                  <span><b>rydvone@gmail.com</b></span>
+                </li>
+                <li class="list__item">
+                  <img
+                    class="icon"
+                    src="./assets/svg/discord-black.svg"
+                    alt="icon discord"
+                  />
+                  <span><b>@rydvone</b></span>
+                </li>
+                <li class="list__item">
+                  <img
+                    class="icon"
+                    src="./assets/svg/linkedin-black.svg"
+                    alt="icon linkedin"
+                  />
+                  <span
+                    ><a
+                      href="https://www.linkedin.com/in/alexander-verbitsky-67243921a/"
+                      class="link"
+                      ><b>alexander-verbitsky</b></a
+                    ></span
+                  >
+                </li>
+                <li class="list__item">
+                  <img
+                    class="icon"
+                    src="./assets/svg/github-black.svg"
+                    alt="icon github"
+                  />
+                  <span
+                    ><a href="https://github.com/rydvone" class="link"
+                      ><b>rydvone</b></a
+                    ></span
+                  >
+                </li>
+                <li class="list__item">
+                  <img
+                    class="icon"
+                    src="./assets/svg/location-black.svg"
+                    alt="icon location"
+                  />
+                  <span
+                    ><a
+                      href="https://goo.gl/maps/qdCNhz15wzo9SL1d8"
+                      class="link"
+                      ><b>Gomel, Belarus</b></a
+                    ></span
+                  >
+                </li>
+              </ul>
+            </section>
 
-          <section class="contacts left" id="contacts">
-            <h2 class="title">Contacts</h2>
-            <ul class="list list_contacts">
-              <li class="list__item">
-                <img class="icon" src="./assets/svg/email-black.svg" alt="icon email"/>
-                <span><b>rydvone@gmail.com</b></span>
-              </li>
-              <li class="list__item">
-                <img class="icon" src="./assets/svg/discord-black.svg" alt="icon discord"/>
-                <span><b>@rydvone</b></span>
-              </li>
-              <li class="list__item">
-                <img class="icon" src="./assets/svg/linkedin-black.svg" alt="icon linkedin"/>
-                <span><a href="https://www.linkedin.com/in/alexander-verbitsky-67243921a/"
-                    class="link"><b>alexander-verbitsky</b></a></span>
-              </li>
-              <li class="list__item">
-                <img class="icon" src="./assets/svg/github-black.svg" alt="icon github"/>
-                <span><a href="https://github.com/rydvone" class="link"><b>rydvone</b></a></span>
-              </li>
-              <li class="list__item">
-                <img class="icon" src="./assets/svg/location-black.svg" alt="icon location"/>
-                <span><a href="https://goo.gl/maps/qdCNhz15wzo9SL1d8" class="link"><b>Gomel, Belarus</b></a></span>
-              </li>
-            </ul>
-          </section>
+            <section class="skills left" id="skills">
+              <h2 class="title">Skills</h2>
+              <ul class="list">
+                <li class="list__item">JavaScript</li>
+                <li class="list__item">Angular, Typescript, NgRx</li>
+                <li class="list__item">HTML, SCSS</li>
+                <li class="list__item">Git, Webpack</li>
+                <li class="list__item">
+                  Additional option: Industrial programming IEC 61131
+                </li>
+              </ul>
+            </section>
 
-          <section class="skills left" id="skills">
-            <h2 class="title">Skills</h2>
-            <ul class="list">
-              <li class="list__item">JavaScript</li>
-              <li class="list__item">HTML, CSS (SASS)</li>
-              <li class="list__item">Git, Webpack</li>
-              <li class="list__item">Linux, Powershell, Virtualization, Networks</li>
-              <li class="list__item">Industrial programming</li>
-            </ul>
-          </section>
+            <section class="languages left" id="languages">
+              <h2 class="title">Languages</h2>
+              <ul class="list">
+                <li class="list__item">
+                  <strong>English</strong>
+                  <span>A2 (EPAM test)</span>
+                </li>
+                <li class="list__item">
+                  <strong>Russian</strong>
+                  <span>native</span>
+                </li>
+              </ul>
+            </section>
+          </div>
 
-          <section class="languages left" id="languages">
-            <h2 class="title">Languages</h2>
-            <ul class="list">
-              <li class="list__item">
-                <strong>English</strong>
-                <span>A2 (EPAM test)</span>
-              </li>
-              <li class="list__item">
-                <strong>Russian</strong>
-                <span>native</span>
-              </li>
-            </ul>
-          </section>
-        </div>
+          <div class="main___column-right">
+            <section class="summary right" id="summary">
+              <h2 class="title">Summary</h2>
+              <p class="text">
+                I worked as a software engineer for automated control systems at
+                factory. My usual working day consisted of troubleshooting,
+                implementing new features and developing new software. I was
+                programming with IEC 61131 for programmable logic controllers
+                and Pascal similar language for ABB robot and other industrial
+                controller.
+                <br />
+                In 2022, I successfully completed the JavaScript/Frontend course
+                from RSSchool. And additional Angular framework.
+                <br />
+                I'm responsible and independent. I can work hard. I'm absolutely
+                not a conflicted person. I'm honest and I value my reputation.
+                I'm into bicycle, traveling and I really enjoy programming.
+              </p>
+              <p class="target">
+                I'm looking for an Junior JavaScript/Frontend Developer
+                with or without relocation.
+              </p>
+            </section>
 
-        <div class="main___column-right">
-          <section class="summary right" id="summary">
-            <h2 class="title">Summary</h2>
-            <p class="text">
-              I worked as a software engineer for automated control systems at factory. My usual working day consisted
-              of troubleshooting, implementing new features and developing new software. I was programming with IEC
-              61131 for programmable logic controllers
-              and Pascal similar language for ABB robot and other industrial controller.
-              <br>
-              In June 2022, I successfully completed the JavaScript/Frontend Stage 1 course  from RSSchool with 100% score (there
-              are links to some works in the Pet projects section).
-              <br>
-              I'm responsible and independent. I can work hard. I'm absolutely not a conflicted person. I'm honest and I
-              value my reputation.
-              And I really enjoy programming.
-            </p>
-            <p class="target">I'm looking for an Intern/Junior JavaScript/Frontend Developer with or without relocation.
-            </p>
-          </section>
+            <section class="education right" id="education">
+              <h2 class="title">Education</h2>
+              <h3 class="sub-title">University</h3>
+              <ul class="list">
+                <li class="list__item">
+                  <b>Sukhoi State Technical University of Gomel,</b> 2015,
+                  Master of Engineering <br />Master's degree
+                </li>
+                <li class="list__item">
+                  <b>Sukhoi State Technical University of Gomel,</b> 2012,
+                  Engineer by radioelectronics <br />Bachelor's degree
+                </li>
+              </ul>
 
-          <section class="education right" id="education">
-            <h2 class="title">Education</h2>
-            <h3 class="sub-title">University</h3>
-            <ul class="list">
-              <li class="list__item">
-                <b>Sukhoi State Technical University of Gomel,</b> 2012,
-                Engineer by radioelectronics
-                <br>Bachelor's degree
-              </li>
-              <li class="list__item">
-                <b>Sukhoi State Technical University of Gomel,</b> 2015,
-                Master of Engineering
-                <br>Master's degree
-              </li>
-            </ul>
+              <h3 class="sub-title">Course/Certificate</h3>
+              <ul class="list">
+                <li class="list__item">
+                  <a href="https://rs.school/angular/" class="link"
+                    >RS School "Angular", 2022
+                  </a>
+                  <a href="./" class="link_mark" target="_blank"
+                    ><strong>Certificate</strong>
+                  </a>
+                </li>
+                <li class="list__item">
+                  <a href="https://rs.school/js/" class="link"
+                    >RS School "JavaScript/Front-end", 2022
+                  </a>
+                  <a
+                    href="./assets/docs/i5rjay8t.pdf"
+                    class="link_mark"
+                    target="_blank"
+                    ><strong>Certificate</strong>
+                  </a>
+                </li>
+              </ul>
+            </section>
 
-            <h3 class="sub-title">Course/Certificate</h3>
-            <ul class="list">
-              <li class="list__item">
-                <a href="https://rs.school/js/" class="link"><b>RS School "JavaScript/Front-end"</b>, Stage 1 (2022)
-                </a>
-              </li>
-            </ul>
-          </section>
+            <section class="work-experience right" id="work-experience">
+              <h2 class="title">Experience</h2>
+              <ul class="list">
+                <li class="list__item">
+                  <b
+                    >JSC Gomelstroymaterialy - Software Engineer for Automated
+                    Control System</b
+                  >
+                  <br />feb. 2019 - dec. 2022
+                </li>
+                <li class="list__item">
+                  <b
+                    >JSC Gomelstroymaterialy - Instrumentation and Control
+                    System Adjuster</b
+                  >
+                  <br />apr. 2012 - feb. 2019
+                </li>
+              </ul>
+              <hr class="hr" />
+            </section>
 
-          <section class="work-experience right" id="work-experience">
-            <h2 class="title">Experience</h2>
-            <ul class="list">
-              <li class="list__item">
-                <b>JSC Gomelstroymaterialy - Software Engineer for Automated Control System</b>
-                <br>feb. 2019 - jun. 2022
-              </li>
-              <li class="list__item">
-                <b>JSC Gomelstroymaterialy - Instrumentation and Control System Adjuster</b>
-                <br>apr. 2012 - feb. 2019
-              </li>
-            </ul>
-            <hr class="hr">
-          </section>
-
-          <section class="pet-projects right" id="code-and-projects">
-            <h2 class="title">Projects</h2>
-
-            <h3 class="sub-title">Pet projects</h3>
-            <div class="projects">
-              <div class="projects__item">
-                <a href="https://rydvone.github.io/virtual-keyboard/" target="_blank" class="projects__link">
-                  <img src="./assets/image/virrual-keyboard.jpg" alt="Virtual Keyboard" class="projects__image">
-                </a>
-                <div class="projects__title">Virtual Keyboard</div>
-                <div class="projects__text"></div>
-                <div class="projects__content"></div>
-              </div>
-              <div class="projects__item">
-                <a href="https://rydvone.github.io/cssMemSlider/cssMemSlider/" target="_blank" class="projects__link">
-                  <img src="./assets/image/css-meme-slider.jpg" alt="CSS Meme Slider" class="projects__image">
-                </a>
-                <div class="projects__title">CSS Meme Slider</div>
-                <div class="projects__text"></div>
-                <div class="projects__content"></div>
-              </div>
-              <div class="projects__item">
-                <a href="https://rolling-scopes-school.github.io/rydvone-JSFEPRESCHOOL/tic-tac-toe/" target="_blank"
-                  class="projects__link">
-                  <img src="./assets/image/tic-tac-toe.jpg" alt="tic-tac-toe" class="projects__image">
-                </a>
-                <div class="projects__title">Game "tic-tac-toe"</div>
-                <div class="projects__text"></div>
-                <div class="projects__content"></div>
-              </div>
-              <div class="projects__item">
-                <a href="https://rolling-scopes-school.github.io/rydvone-JSFEPRESCHOOL/movie-app/" target="_blank"
-                  class="projects__link">
-                  <img src="./assets/image/movie-cards.jpg" alt="Movie cards" class="projects__image">
-                </a>
-                <div class="projects__title">Movie cards</div>
-                <div class="projects__text"></div>
-                <div class="projects__content"></div>
-              </div>
-              <div class="projects__item">
-                <a href="https://rolling-scopes-school.github.io/rydvone-JSFE2022Q1/shelter/pages/main/" target="_blank"
-                  class="projects__link">
-                  <img src="./assets/image/shelter.jpg" alt="Shelter" class="projects__image">
-                </a>
-                <div class="projects__title">Webpage "Shelter"</div>
-                <div class="projects__text"></div>
-                <div class="projects__content"></div>
-              </div>
-              <div class="projects__item">
-                <a href="https://github.com/rydvone/HTML-builder" target="_blank" class="projects__link">
-                  <img src="./assets/image/html-builder.jpg" alt="HTML-builder" class="projects__image">
-                </a>
-                <div class="projects__title">HTML-builder</div>
-                <div class="projects__text"></div>
-                <div class="projects__content"></div>
-              </div>
-            </div>
-
-            <h3 class="sub-title">Code</h3>
-            <div class="code">
-              <div class="code__item">
-                <div class="code__title"></div>
-                <div class="code__text"></div>
-                <div class="code__content">
-                  <a href="https://www.codewars.com/users/rydvone" class="code__link"><img
-                      src="https://www.codewars.com/users/rydvone/badges/small" class="code__image" alt="Codewars Score"
-                      title="codewars score"></a>
+            <section class="pet-projects right" id="code-and-projects">
+              <h2 class="title">Projects</h2>
+              <p class="text">
+                Hello, everyone. My pet-projects are projects from my studies at
+                the RS School.
+                What technologies do I use in my projects?
+                <br />
+                There were different projects: 
+                <br />
+                - simple projects with only HTML
+                and CSS; 
+                <br />
+                - development of HTML, SCSS and JS projects using
+                templates in Figma; 
+                <br />
+                - simple online store project with TypeScript;
+                <br />
+                - projects using Angular framework: Youtube app and Project
+                Management app.
+              </p>
+              <h3 class="sub-title">Pet projects</h3>
+              <div class="projects">
+                <div class="projects__item">
+                  <a
+                    href="https://github.com/rydvone/rs-school-js/blob/main/README.md"
+                    target="_blank"
+                    class="projects__link"
+                  >
+                    <img
+                      src="./assets/image/projects/online-store.png"
+                      alt="RSSchool projects"
+                      class="projects__image"
+                    />
+                  </a>
+                  <div class="projects__title">RSSchool projects</div>
+                  <div class="projects__text"></div>
+                  <div class="projects__content"></div>
+                </div>
+                <div class="projects__item">
+                  <a
+                    href="https://github.com/rydvone/rs-school-angular"
+                    target="_blank"
+                    class="projects__link"
+                  >
+                    <img
+                      src="./assets/image/projects/youtube-client-app.png"
+                      alt="Youtube-client app"
+                      class="projects__image"
+                    />
+                  </a>
+                  <div class="projects__title">
+                    Youtube-client app (Angular)
+                  </div>
+                  <div class="projects__text"></div>
+                  <div class="projects__content"></div>
+                </div>
+                <div class="projects__item">
+                  <a
+                    href="https://beamish-selkie-b4fbf3.netlify.app/"
+                    target="_blank"
+                    class="projects__link"
+                  >
+                    <img
+                      src="./assets/image/projects/pm-app.png"
+                      alt="Project management app"
+                      class="projects__image"
+                    />
+                  </a>
+                  <div class="projects__title">
+                    Project management app (Angular)
+                  </div>
+                  <div class="projects__text"></div>
+                  <div class="projects__content"></div>
                 </div>
               </div>
-            </div>
-          </section>
 
+              <h3 class="sub-title">Code</h3>
+              <div class="code">
+                <div class="code__item">
+                  <div class="code__title"></div>
+                  <div class="code__text"></div>
+                  <div class="code__content">
+                    <a
+                      href="https://www.codewars.com/users/rydvone"
+                      class="code__link"
+                      ><img
+                        src="https://www.codewars.com/users/rydvone/badges/small"
+                        class="code__image"
+                        alt="Codewars Score"
+                        title="codewars score"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
         </div>
-      </div>
-    </main>
-
-  </div>
-</body>
-
+      </main>
+    </div>
+  </body>
 </html>

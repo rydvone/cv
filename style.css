@@ -204,6 +204,11 @@ a {
   align-items: center;
 }
 
+.link_mark {
+  color: var(--dark-highlight);
+  text-decoration: underline;
+}
+
 
 @media (max-width: 767.9px){
 
